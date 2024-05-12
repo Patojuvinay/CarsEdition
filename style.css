@@ -1,0 +1,497 @@
+*{
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 25px;
+}
+.navbar-brand img{
+    width: 180px;
+}
+.nav-link{
+    padding: 10px;
+    color: white;
+}
+.nav-link:hover{
+    color: rgba(255, 166, 0, 0.731) ;
+}
+.navbar-toggler{
+    color: white;
+    background-color: white;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+.navbar-nav button{
+    width: 80px;
+    background-color: rgba(255, 166, 0, 0.731);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 45px;
+}
+#fine h3{
+font-size: 35px;
+margin-bottom: 18%;
+} 
+#foul p{
+ font-size: 16px;
+ margin: auto;
+ text-align: justify;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#foul .card{
+    margin-bottom: 10px;
+}
+#foul .card h4{
+    text-align: center;
+}
+#clust .card{
+    padding: 10px;
+    border-top: none;
+    border-bottom: none;
+    margin-bottom: 10px;
+}
+#clust{
+    margin-top: 20px;
+}
+#clust .card{
+    box-shadow: 2px 3px 4px 2px grey;
+}
+@media (max-width: 996px) {
+    #clust .card 
+    {
+        font-size: 14px;
+    }
+}
+#loot{
+    width: 100%;
+    color: white;
+}
+#loot p{
+    padding: 10px;
+}
+#logo .card{
+  margin-bottom: 40px;
+  box-shadow: 2px 3px 6px 2px grey;
+}
+#logo img{
+    text-align: center;
+    margin: auto;
+    width: 80px;
+}
+#club{
+    width: 100%;
+    color: white;
+}
+#club h2{
+    padding: 20px;
+}
+#club p{
+    color: white;
+    text-align: justify;
+    padding: 20px;
+}
+#contra button{
+    width: 290px;
+    height: 50px;
+    margin-top: 6px;
+    background-color: black;
+    color: white;
+}
+#contra .form-control{
+    width: 280px;
+    height: 50px;
+}
+#foot{
+    background-color: black !important;
+}
+#foot li{
+    list-style: none;
+    margin-bottom: 8px;
+  
+}
+#foot li:hover{
+    color: gold;
+}
+#foot h5{
+    color: gold;
+    text-decoration-line: underline;
+}
+#mer .card-body{
+ text-align: justify;
+}
+#mer .card-body button{
+    margin-left: 70%;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+#mer .card{
+  margin-bottom: 10px;
+  box-shadow: 3px 4px 8px 3px grey;
+}
+#bmw .card-body{
+    text-align: justify;
+}
+#bmw .card-body button{
+    margin-left: 70%;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+#bmw .card{
+    margin-bottom: 10px;
+    box-shadow: 3px 4px 8px 3px grey;  
+}
+#lamb .card-body{
+    text-align: justify;
+}
+#lamb .card-body button{
+    margin-left: 70%;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+#lamb .card{
+    margin-bottom: 10px;
+    box-shadow: 3px 4px 8px 3px grey;  
+} 
+#audi .card{
+    margin-bottom: 10px;
+    box-shadow: 3px 4px 8px 3px grey;    
+}
+#audi .card-body{
+    text-align: justify;
+}
+#audi .card-body button{
+    margin-left: 70%;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+#fer .card{
+    box-shadow: 3px 4px 8px 3px grey;  
+}
+#fer .card-body{
+    text-align: justify;
+}
+#fer .card-body button{
+    margin-left: 70%;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+#four{
+    width: 100%;
+    height: 90vh;
+    background-image: url(pic/1.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+#four div h1{
+  margin-right: 40%;
+  font-size: 50px;
+
+}
+#four div p{
+    margin-right: 40%;
+    font-size: 20px;
+}
+#most{
+    margin-top: 20px;
+}
+.carousel-caption h3{
+   font-size: 20px;
+}
+.balan{
+    height: 180px;
+    background-image: url(pic/audi.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border-right: 2px;
+    margin-bottom: 10px;
+}
+.balan a{
+    color: white;
+}
+.balan h3{
+    margin-top: 20%;
+}
+.lan{
+    height: 180px;
+    background-image: url(pic/ben.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    margin-bottom: 10px;
+}
+.lan a{
+    color: white;
+}
+.lan h3{
+    margin-top: 20%;
+}
+.alan{
+    height: 180px;
+    background-image: url(pic/lamb.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    margin-bottom: 10px;
+} 
+.alan a{
+    color: white;
+}
+.alan h3{
+    margin-top: 20%;
+}
+.nal{
+    height: 180px;
+    background-image: url(pic/bmw.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    margin-bottom: 10px;
+}
+.nal a{
+    color: white;
+}
+.nal h3{
+    margin-top: 20%;
+}
+#sour h3{
+ margin-left: 50px;
+ font-size: 40px;
+}
+#sour p{
+    margin-left: 50px;
+    text-align: justify;
+}
+.ark h3{
+    margin-right: 50px;
+    font-size: 45px;
+    margin-bottom: 10%;
+}
+.ark p{
+    margin-right: 50px;
+    text-align: justify; 
+}
+#lass{
+    color: white;
+}
+#lass img{
+    width: 200px;
+    padding: 20px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    margin-left: 10%;
+}
+#lass h1{
+  margin-left:20% ;
+}
+#lass p{
+    margin-left: 20%;
+}
+#eng h2{
+  font-size: 40px;
+}
+#eng p{
+    text-align: justify;
+}
+#cont{
+    height: 100vh;
+    background-image: url(pic/8.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#cont .form-control{
+    width: 280px;
+    height: 50px;
+    margin-left: 50px;
+}
+#cont h1{
+    font-size: 50px;
+    color: white;
+    margin-right: 30%;
+    margin-left: 50px;
+}
+#nary {
+    border-left: 2px solid black;
+}
+
+#clust .card img{
+    text-align: center;
+}
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-image: url(caro/1.png);
+    background-position: center;
+    background-size: cover;
+}
+.bg .font1{
+    color: white;
+    font-size: 46px;
+}
+.bg2{
+    width: 100%;
+    height: 100vh;
+    background-image: url(caro/2.png);
+    background-position: center;
+    background-size: cover;
+}
+.bg2 .font2{
+    color: white;
+    font-size: 46px;
+}
+.bg3{
+   width: 100%;
+   height: 100vh;
+   background-image: url(caro/3.jpg);
+   background-position: center;
+   background-size: cover; 
+}
+.bg3 .font3{
+    color: white;
+    font-size: 46px;
+}
+@media (max-width: 996px) {
+    .bg .font1 h3
+    {
+        font-size: 30px;
+    }
+}
+@media (max-width: 996px) {
+    .bg2 .font2 h3
+    {
+        font-size: 30px;
+    }
+}
+@media (max-width: 996px) {
+    .bg3 .font3 h3
+    {
+        font-size: 30px;
+    }
+}
+.card-img{
+    margin-left: 80px;
+}
+@media (max-width:996px) {
+    #clust .card-img{
+        margin-left: 60px;
+    }
+}
+#loot p{
+    text-align: justify;
+}
+img{
+    border-radius: 8px;
+}
+#clear img{
+    border-radius: 20px;
+    height: 350px;
+}
+#clear h1{
+    text-decoration-line: underline;
+}
+#clear button{
+    background-color: none;
+    padding: 5px 10px;
+    border: 2px solid aqua;
+    border-radius: 8px;
+}
+.jsk{
+    display: flex;
+    justify-content: left;
+    }
+    .jsk h1{
+        font-weight: 700;
+    }
+    .jsk2{
+        margin-left: 15%;
+    }
+    .jsk3{
+        margin-left: 15%;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .rac{
+        text-align: center;
+        text-decoration-line: underline;
+    }
+    #mer .card-body button{
+        background-color:gold ;
+        color: black;
+        border-radius: 8px;
+        font-weight: 500;
+    }
+   #bmw .card-body button{
+    background-color:gold ;
+    color: black;
+    border-radius: 8px;
+    font-weight: 500;
+   }
+   #lamb .card-body button{
+    background-color:gold ;
+    color: black;
+    border-radius: 8px;
+    font-weight: 500;
+   }
+   #audi .card-body button{
+    background-color:gold ;
+    color: black;
+    border-radius: 8px;
+    font-weight: 500;
+   }
+   #fer .card-body button{
+    background-color:gold ;
+    color: black;
+    border-radius: 8px;
+    font-weight: 500;
+   }
+   #aut li{
+  list-style: none;
+   }
+   #aut p{
+  text-align: justify;
+   }
+   #aut span{
+    font-weight: 700;
+   }
+   #foot img{
+    width: 180px;
+   }
+   #foot a{
+    color: white;
+   }
+   #foot li a:hover{
+    color: gold;
+   }
+   .flen{
+    background-color: black;
+    color: white;
+    padding: 0%;
+    margin: 0%;
+    height: 30px;
+}
+.back{
+    background-color: transparent;
+   margin-left: 16%;
+   border-radius: 10px;
+   border: 2px solid black;
+   padding: 5px 15px;
+}

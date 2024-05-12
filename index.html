@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="countMe/countMe.min.js"></script>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+    <title>Google</title>
+</head>
+<body>
+   <header class="container-fluid p-0">
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="logo/logo-no-background.png" alt=""></a>
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId">  <span class="navbar-toggler-icon"></span></button>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="car.html">CARS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">CONTACT US</a>
+                </li>   
+              <button data-bs-target="#regist" data-bs-toggle="modal">Register</button>
+            </ul>
+        </div>
+    </div>
+  </nav> 
+   </header>
+ <section>
+   <form action="index.html">
+    <div class="modal fade" id="regist">
+        <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Register</h2>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+             <div class="modal-body">
+               <div class="mb-3">
+                <label for="" class="form-label">Enter Your Name</label>
+                 <input type="text" name="Enter your Name" id="" class="form-control" placeholder="NAME" aria-describedby="helpId">
+               </div>
+               <div class="mb-3">
+                <label for="" class="form-label">Enter Your Email</label>
+                 <input type="text" name="" id="" class="form-control" placeholder="Email" aria-describedby="helpId">
+               </div>
+               <div class="mb-3">
+                <label for="" class="form-label">Enter Your Password</label>
+                 <input type="text" name="" id="" class="form-control" placeholder="password" aria-describedby="helpId">
+               </div>
+               <div class="mb-3">
+                 <label for="" class="form-label">Confirm Your Password</label>
+                 <input type="text" name="" id="" class="form-control" placeholder="Password" aria-describedby="helpId">
+               </div>
+               <button type="submit" class="btn btn-primary">Submit</button>
+         </div>
+        </div>
+       </div> 
+   </form>
+ </section>
+   <section class="container-fluid p-0" id="fine">
+    <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+               <div class="bg flex">
+                <div class="font1">
+                    <h3>They say money can't buy happiness but it <br> can buy a Lambo.</h3>
+                </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+                <div class="bg2 flex">
+                    <div class="font2">
+                        <h3>If you want to know anything about the thrill <br> just drive an Audi.</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="bg3 flex">
+                    <div class="font3">
+                        <h3>Focus on the outcome <br> Not the obstacles</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+   </section>
+   <section class="container p-5 bg-light text-center " id="clust">
+    <div class="row">
+        <div class="col-6 col-lg-3">
+         <div class="card">
+            <img class="card-img w-25 " src="dl/steering-wheel.png" alt="Title">
+            <div class="card-body">
+                <h6 class="card-title">BOOK A TEST DRIVE</h6>
+                <p class="card-text">Arrange a test drive through your nearest.</p>
+            </div>
+         </div>
+        </div>
+        <div class="col-6 col-lg-3">
+           <div class="card">
+            <img class="card-img w-25" src="dl/car.png" alt="Title">
+            <div class="card-body">
+                <h6 class="card-title">BUILD YOUR OWN</h6>
+                <p class="card-text">Use the configurator to design your perfect car.</p>
+            </div>
+           </div>
+        </div>
+        <div class="col-6 col-lg-3">
+           <div class="card">
+            <img class="card-img w-25" src="dl/book.png" alt="Title">
+            <div class="card-body">
+                <h6 class="card-title">VIEW PRICES</h6>
+                <p class="card-text">view vehicle prices online to purchase car.</p>
+            </div>
+           </div>
+        </div>
+        <div class="col-6 col-lg-3">
+            <div class="card">
+                <img class="card-img w-25" src="dl/car.png" alt="Title">
+                <div class="card-body">
+                    <h6 class="card-title">RESERVE ONLINE</h6>
+                    <p class="card-text">Reserve your car on online for pre-booking</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <section class="container-fluid p-5 bg-primary-subtle" id="clear">
+    <h1 class="text-center mb-5">About CarEdition</h1>
+  <div class="row justify-content-center">
+    <div class="col-12 col-lg-4">
+        <img src="pic/1.jpg" class="w-100" alt="">
+    </div>
+    <div class="col-12 col-lg-6">
+      <h3>Discover India Proudly with CarEdition, <br>Enjoy Your Ride with new car.</h3>
+      <p>CarEdition is a selling car management co-operation that provides <br>
+    its customers with the best customizable Rates and dicountst <br>
+     to have the best experience of their life.</p>
+    <button><a href="aboutus.html">About us</a></button>
+    <div class="jsk text-center mt-4">
+        <div >
+            <h2><span id="num1">10</span>+</h2>
+            <h6>Years of excellence</h6>
+        </div> 
+        <div class="jsk2">
+            <h2><span id="num2">100</span>+</h2>
+            <h6>Happy Clients</h6>
+        </div>
+        <div class="jsk3">
+            <h2><span id="num3">180</span>+</h2>
+            <h6>Sold cars</h6>
+        </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+   <section class="container-fluid fixed-bottom ">
+    <div class="row">
+        <div class="col-12 col-lg-1">
+            <div>
+                <a href="https://api.whatsapp.com/send/?phone=%2B918008239889&text&type=phone_number&app_absent=0"><h3><i class="bi bi-whatsapp text-bg-success rounded-circle px-1"></i></h3></a>
+            </div>
+        </div>
+        <div class="col-12 col-lg-10"></div>
+        <div class="col-12 col-lg-1">
+            <div>
+                <div>
+                  <a href="tel:+918008239889">  <h3><i class="bi bi-telephone-fill text-bg-primary rounded-circle px-1"></i></h3></a>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+   <section class="container p-5 m-auto text-center" id="foul">
+     <div class="row flex">
+        <div class="col-12 col-lg-5 ">
+          <div class="card">
+            <img class="card-img-top flex w-75 p-2 m-auto" src="ld/car.jpg" alt="Title">
+            <div class="card-body">
+                <h4 class="card-title">PERFORMANCE</h4>
+                <p class="card-text">New is about ensuring your free spirit is unshaken with ESP and multi-drive modes. This journey of creating and evoking joy, will be forever. Because the spirit that loves to drive, is exactly that</p>
+            </div>
+          </div> 
+        </div>
+        <div class="col-12 col-lg-5">
+        <div class="card">
+            <img class="card-img-top w-75 m-auto p-2" src="ld/car2.jpg" alt="Title">
+            <div class="card-body">
+                <h4 class="card-title">DESIGN</h4>
+                <p class="card-text">Design shouldn’t just look great, it should do great things. But while being new, design needs to evoke a love that’s eternal. Design shouldn’t just be new. It needs to Drive New Foreve</p>
+            </div>
+        </div>
+        </div>
+     </div>
+   </section>
+   <section class="container-fluid bg-dark p-3 text-center" id="loot">
+    <h1 class="p-2">About Sports Car</h1>
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <img src="cl.jpg" class="w-100" alt="">
+            </div>
+            <div class=" col-12 col-lg-6">
+                <p>Sports car is an automobile designed more for performance than for carrying passengers or luggage. Sports cars are known for their light weight, speed, nimble handling, and appearance. They feature special equipment, and with few exceptions manufacturers make only limited numbers of them. As a result, pound for pound they cost more than most other cars. Famous sports cars include the Chevrolet Corvette of the United States, the Alfa –Romeo and Ferrari of Italy, the Jaguar XK-E, MGB, and Triumph TR-7 of the United Kingdom, the Porsche 911 and Mercedes 300 SL of Germany, and the Mazda Miata and Nissan 370ZX of Japan. Characteristics. Most sports cars are two-seaters with low ground clearance and aerodynamic designs that enable them to cut through the air easily.With generally favorable power to weight ratios, these cars often accelerate more quickly than other automobiles do. Sports cars have performance tires and advanced suspension systems. Sports cars often serve as a means of testing new automotive technology before it becomes commonplace in everyday vehicles. For example, automakers have used sports cars to demonstrate the efficiencies of multi-valve, overhead cam engine designs, rack and pinion steering, and four wheel disc brakes before they were incorporated in inexpensive passenger cars. History. Automobiles began to be driven as sporting vehicles in the late 1800's.</p>
+            </div>   
+        </div>
+   </section>
+   <section class="container text-center p-5" id="logo">
+    <h1>Popular Brands</h1>
+    <div class="row">
+        <div class="col-6 col-lg-2">
+            <div class="card">
+                <img class="card-img-top " src="logo/Audi.png" alt="Title">
+            </div>
+        </div>
+        <div class="col-6 col-lg-2">
+            <div class="card">
+                <img class="card-img-top " src="logo/Bentley.png" alt="Title">
+            </div>
+        </div>
+        <div class="col-6 col-lg-2">
+            <div class="card">
+                <img class="card-img-top p-2" src="logo/bmw.png" alt="Title">
+            </div>
+        </div>
+        <div class="col-6 col-lg-2">
+            <div class="card">
+                <img class="card-img-top p-2" src="logo/Ferrari.png" alt="Title">
+            </div>
+        </div>
+        <div class="col-6 col-lg-2">
+            <div class="card">
+                <img class="card-img-top" src="logo/Hyundai.png" alt="Title">
+            </div>
+        </div>
+        <div class="col-6 col-lg-2">
+            <div class="card">
+                <img class="card-img-top" src="logo/image 1.png" alt="Title">
+            </div>
+        </div>
+        <div class="col-6 col-lg-2">
+            <div class="card">
+                <img class="card-img-top" src="logo/image 2.png" alt="Title">
+            </div>
+        </div>
+        <div class="col-6 col-lg-2">
+            <div class="card">
+                <img class="card-img-top" src="logo/Jaguar.png" alt="Title">
+            </div>
+        </div>
+        <div class="col-6 col-lg-2">
+            <div class="card">
+                <img class="card-img-top p-2" src="logo/Mercedes.png" alt="Title">
+            </div>
+        </div>
+        <div class="col-6 col-lg-2">
+            <div class="card">
+                <img class="card-img-top p-2" src="logo/Porsche.png" alt="Title">
+            </div>
+        </div>
+        <div class="col-6 col-lg-2">
+            <div class="card">
+                <img class="card-img-top p-2" src="logo/Tesla.png" alt="Title">
+            </div>
+        </div>
+        <div class="col-6 col-lg-2">
+            <div class="card">
+                <img class="card-img-top p-2" src="logo/Volvo.png" alt="Title">
+            </div>
+        </div>
+    </div>
+   </section>
+   <section class="container-fluid bg-dark" id="club">
+     <div class="row">
+        <div class="col-12 col-lg-4">
+            <h2>About Premium Cars :</h2>
+            <p>Today's luxury cars are refined technological marvels which combines fine materials with powerful machinery. Luxury automobiles are appealing, sexy status symbols of the modern man and despite the envious loathing towards them, they may be the finest machine on the road.From the earliest documented appearance of man we know that we have always been attracted to the most dominating physical object within sight.It’s beautiful inside and can be athletic when the road gets twisty. A 333-hp supercharged 3.0-litre V-6 is standard; a 450-hp twin-turbo 4.0-litre V-8 is optional. All-wheel drive, an eight-speed automatic transmission, and an adaptive air suspension are standard on all models. Options include a head-up display and 22-way power.</p>
+        </div>
+        <div class="col-12 col-lg-8 p-3">
+            <div id="carouselId1" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="cars/mercedes/f/2.webp" class="w-100" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pic/2.jpg" class="w-100" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pic/6.jpg" class="w-100" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pic/audi.jpg" class="w-100" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pic/ben.jpg" class="w-100" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pic/bmw.jpg" class="w-100" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pic/lamb.jpg" class="w-100" alt="Third slide">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselId1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+     </div>
+   </section>
+   <section class="container-fluid p-5" id="contra">
+    <div class="row">
+        <div class="col-12 col-lg-6">
+          <h2>GET LATEST UPDATES OF CARS</h2>
+          <p>Receive the beautifully curated selection of what’s trending in luxury with inside stories and tips from our experts.</p>
+        </div>
+        <div class="col-10 col-lg-6">
+           <div class="mb-3 ant">
+             <input type="email" class="form-control" name="EMAIL" id="email" placeholder="EMAIL">
+             <button>SUBSCRIBE</button>
+           </div>
+        </div>
+    </div>
+   </section>
+   <footer class="container-fluid text-center text-bg-dark p-5" id="foot">
+      <div class="row">
+        <div class="col-6 col-lg-3">
+           <img src="logo/logo-no-background.png" alt="">
+           <div class="mt-2">
+            <li><i class="bi bi-geo-alt me-2"></i> 
+                Audi India, Chakala,<br> Andheri (East) <br>
+                    Mumbai 400 099
+               </li>
+               <li><i class="bi bi-telephone me-2"></i> +91888088803</li>
+               <li><i class="bi bi-envelope me-2"></i> Carsedition@gmail.com</li>
+           </div>
+             </div>
+        <div class="col-6 col-lg-3">
+            <h5>Category</h5>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="car.html">Cars</a></li>
+            <li><a href="aboutus.html">Aboutus</a></li>
+            <li><a href="contact.html">Contact</a></li>
+           
+        </div>
+        <div class="col-6 col-lg-3">
+            <h5>CARS</h5>
+            <li>AUDI</li>
+            <li>Ferrari</li>
+            <li>Mercedes</li>
+            <li>Lamborghini</li>
+            <li>BMW</li>
+        </div>
+        <div class="col-6 col-lg-3">
+            <h5>FOLLOW US</h5>
+            <li><i class="bi bi-instagram"></i> Instagram</li>
+            <li><i class="bi bi-twitter-x"></i> Twitter</li>
+            <li><i class="bi bi-facebook"></i> Facebook</li>
+            <li><i class="bi bi-linkedin"></i> Linkedin</li>
+            <li><i class="bi bi-youtube"></i> Youtube</li>
+        </div>
+      </div>
+   </footer>
+   <footer class="flen">
+    <p class="text-center">Copyright <i class="bi bi-c-circle"></i> 2024 All rights reserved.</p>
+</footer>
+</body>
+</html>

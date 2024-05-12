@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <script src="script.js"></script>
+    <title>Google</title>
+</head>
+<body>
+   <header class="container-fluid p-0">
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="logo/logo-no-background.png" alt=""></a>
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId">  <span class="navbar-toggler-icon"></span></button>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="car.html">CARS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">CONTACT US</a>
+                </li>
+                <button data-bs-target="#regist" data-bs-toggle="modal">Register</button>
+            </ul>
+        </div>
+    </div>
+  </nav>
+   </header>
+   <section>
+    <form action="car.html">
+     <div class="modal fade" id="regist">
+         <div class="modal-dialog">
+          <div class="modal-content">
+             <div class="modal-header">
+                 <h2 class="modal-title">Register</h2>
+                 <button class="btn-close" data-bs-dismiss="modal"></button>
+             </div>
+              <div class="modal-body">
+                <div class="mb-3">
+                 <label for="" class="form-label">Enter Your Name</label>
+                  <input type="text" name="Enter your Name" id="" class="form-control" placeholder="NAME" aria-describedby="helpId">
+                </div>
+                <div class="mb-3">
+                 <label for="" class="form-label">Enter Your Email</label>
+                  <input type="text" name="" id="" class="form-control" placeholder="Email" aria-describedby="helpId">
+                </div>
+                <div class="mb-3">
+                 <label for="" class="form-label">Enter Your Password</label>
+                  <input type="text" name="" id="" class="form-control" placeholder="password" aria-describedby="helpId">
+                </div>
+                <div class="mb-3">
+                  <label for="" class="form-label">Confirm Your Password</label>
+                  <input type="text" name="" id="" class="form-control" placeholder="Password" aria-describedby="helpId">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+         </div>
+        </div> 
+    </form>
+  </section>
+  <section>
+    <form action="submit.html"  onsubmit="return validation()">
+        <div
+        class="modal fade"
+        id="modalId"
+        tabindex="-1"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        
+        role="dialog"
+        aria-labelledby="modalTitleId"
+        aria-hidden="true">
+        <div
+            class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"
+            role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitleId">
+                    Enter Your Details
+                    </h5>
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                    ></button>
+                </div>
+                <div class="modal-body">
+                    <input type="text" name="username" id="username" class="form-control mb-3" placeholder="Name">
+                    <p id="namenote"></p>
+                    <input type="tel" name="mobile" id="mobile" class="form-control mb-3" placeholder="Mobile number">
+                    <p id="mobilenote"></p>
+                    <input type="text" name="email" id="email" class="form-control mb-3" placeholder="email id">
+                    <p id="emailnote"></p>
+                    <input type="tel" class="form-control mb-3" name="person" id="person" placeholder="Transaction id"/>
+                    <p id="pernote"></p>
+                     <input type="date" class="form-control mb-2" name="" id="">
+                </div>
+                <div class="modal-footer">
+                    <input type="submit" class="btn btn-primary" name="" id="" >
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+  </section>
+   <h2 class="rac mt-3">PREMIUM CARS COLLECTION</h2>
+   <section class="container p-5 text-center" id="mer">
+    <h3>MERCEDES-BENZ</h3>
+    <div class="row">
+        <div class="col-12 col-lg-4">
+      <div class="card">
+        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="cars/mercedes/a/1.webp" class="w-100 " alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="cars/mercedes/a/2.webp" class="w-100" alt="Second slide">
+                </div>
+               
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                <span class="carousel-control-next-icon" ></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="card-body">
+            <h3 class="card-title"><i class="bi bi-currency-rupee"></i>22,700,000</h3>
+            <h5 class="card-title">MERCEDES-BENZ AMG GT</h5>
+            <p class="card-text">Mercedes-Benz automobiles are tuned in a specific way and upgraded for additional power.</p>
+            <button data-bs-target="#modalId" data-bs-toggle="modal">Buy Now</button>
+        </div>
+      </div>
+        </div>
+        <div class="col-12 col-lg-4">
+            <div class="card">
+              <div id="carouselId1" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner" role="listbox">
+                      <div class="carousel-item active">
+                          <img src="cars/mercedes/c/1.webp" class="w-100 " alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="cars/mercedes/c/2.webp" class="w-100" alt="Third slide">
+                    </div>
+                     
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselId1" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                      <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselId1" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" ></span>
+                      <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title"><i class="bi bi-currency-rupee"></i>1,21,00,000</h3>
+                  <h5 class="card-title">MERCEDES-BENZ GLS 450</h5>
+                  <p class="card-text">It has a 3.0-liter petrol engine, a 48V battery capacity, and a top speed of 246 kmph.</p>
+                  <button data-bs-target="#modalId" data-bs-toggle="modal">Buy Now</button>
+              </div>
+            </div>
+              </div>
+              <div class="col-12 col-lg-4">
+                <div class="card">
+                  <div id="carouselId2" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner" role="listbox">
+                          <div class="carousel-item active">
+                              <img src="cars/mercedes/b/1.webp" class="w-100 " alt="First slide">
+                          </div>
+                          <div class="carousel-item">
+                              <img src="cars/mercedes/b/2.webp" class="w-100" alt="Second slide">
+                          </div>
+                         
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselId2" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                          <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselId2" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" ></span>
+                          <span class="visually-hidden">Next</span>
+                      </button>
+                  </div>
+                  <div class="card-body">
+                    <h3 class="card-title"><i class="bi bi-currency-rupee"></i>2,50,00,000</h3>
+                      <h5 class="card-title">MERCEDES-BENZ G63</h5>
+                      <p class="card-text">The Mercedes-AMG G 63 is a luxury SUV with a 3982 cc, 8-cylinder, twin-turbo V8 engine.</p>
+                      <button data-bs-target="#modalId" data-bs-toggle="modal">Buy Now</button>
+                  </div>
+                </div>
+                  </div>
+                  <div class="col-12 col-lg-4">
+                    <div class="card">
+                      <div id="carouselId3" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-inner" role="listbox">
+                              <div class="carousel-item active">
+                                  <img src="cars/mercedes/d/1.webp" class="w-100 " alt="First slide">
+                              </div>
+                              <div class="carousel-item">
+                                  <img src="cars/mercedes/d/2.webp" class="w-100" alt="Second slide">
+                              </div>
+                            
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselId3" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon"></span>
+                              <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselId3" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" ></span>
+                              <span class="visually-hidden">Next</span>
+                          </button>
+                      </div>
+                      <div class="card-body">
+                        <h3 class="card-title"><i class="bi bi-currency-rupee"></i>2,69,00,000</h3>
+                          <h5 class="card-title">MERCEDES-BENZ S 580</h5>
+                          <p class="card-text">It has a 496-hp twin-turbocharged 4.0-liter V-8 engine and a 48-volt hybrid system.</p>
+                          <button data-bs-target="#modalId" data-bs-toggle="modal">Buy Now</button>
+                      </div>
+                    </div>
+                      </div>
+                      <div class="col-12 col-lg-4">
+                        <div class="card">
+                          <div id="carouselId4" class="carousel slide" data-bs-ride="carousel">
+                              <div class="carousel-inner" role="listbox">
+                                  <div class="carousel-item active">
+                                      <img src="cars/mercedes/e/1.webp" class="w-100 " alt="First slide">
+                                  </div>
+                                  <div class="carousel-item">
+                                      <img src="cars/mercedes/e/2.webp" class="w-100" alt="Second slide">
+                                  </div>
+                                 
+                                 
+                              </div>
+                              <button class="carousel-control-prev" type="button" data-bs-target="#carouselId4" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon"></span>
+                                  <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#carouselId4" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" ></span>
+                                  <span class="visually-hidden">Next</span>
+                              </button>
+                          </div>
+                          <div class="card-body">
+                            <h3 class="card-title"><i class="bi bi-currency-rupee">89,90,000</i></h3>
+                              <h5 class="card-title">MERCEDES-BENZ G 500</h5>
+                              <p class="card-text">The G 500 Final Edition is a limited edition V8 G-Wagon with only 1,500 units available worldwide. </p>
+                              <button data-bs-target="#modalId" data-bs-toggle="modal">Buy Now</button>
+                           </div>
+                        </div>
+                          </div>
+                          <div class="col-12 col-lg-4">
+                            <div class="card">
+                              <div id="carouselId5" class="carousel slide" data-bs-ride="carousel">
+                                  <div class="carousel-inner" role="listbox">
+                                      <div class="carousel-item active">
+                                          <img src="cars/mercedes/f/1.webp" class="w-100 " alt="First slide">
+                                      </div>
+                                      <div class="carousel-item">
+                                          <img src="cars/mercedes/f/2.webp" class="w-100" alt="Second slide">
+                                      </div>
+                                   
+                                    
+                                  </div>
+                                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselId5" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                  </button>
+                                  <button class="carousel-control-next" type="button" data-bs-target="#carouselId5" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" ></span>
+                                      <span class="visually-hidden">Next</span>
+                                  </button>
+                              </div>
+                              <div class="card-body">
+                                <h3 class="card-title"><i class="bi bi-currency-rupee">82,86,000</i></h3>
+                                  <h5 class="card-title">MERCEDES-BENZ SLC</h5>
+                                  <p class="card-text">It has a 2996 cc engine, automatic transmission, and is available in four colors</p>
+                                  <button data-bs-target="#modalId" data-bs-toggle="modal">Buy Now</button>
+                              </div>
+                            </div>
+    </div>
+   </section> 
+   <section class="container text-center p-5" id="bmw">
+    <h3>BMW</h3>
+    <div class="row">
+        <div class="col-12 col-lg-4">
+       <div class="card">
+        <div id="carouselId6" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="cars/bmw/a/1.webp" class="w-100 d-block" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="cars/bmw/a/2.webp" class="w-100 d-block" alt="Second slide">
+                </div>
+              
+                
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselId6" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselId6" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="card-body">
+            <h3><i class="bi bi-currency-rupee"></i> 1,22,00,000 </h3>
+            <h5 class="card-title">BMW X7</h5>
+            <p class="card-text">The BMW M4 CS is a high-performance sports car with a 6-cylinder petrol engine.</p>
+            <button data-bs-target="#modalId" data-bs-toggle="modal">Buy Now</button>
+        </div>
+       </div>
+        </div>
+        <div class="col-12 col-lg-4">
+            <div class="card">
+             <div id="carouselId7" class="carousel slide" data-bs-ride="carousel">
+                 <div class="carousel-inner" role="listbox">
+                     <div class="carousel-item active">
+                         <img src="cars/bmw/b/1.webp" class="w-100 d-block" alt="First slide">
+                     </div>
+                     <div class="carousel-item">
+                         <img src="cars/bmw/b/2.webp" class="w-100 d-block" alt="Second slide">
+                     </div>
+                    
+                    
+                 </div>
+                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselId7" data-bs-slide="prev">
+                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                     <span class="visually-hidden">Previous</span>
+                 </button>
+                 <button class="carousel-control-next" type="button" data-bs-target="#carouselId7" data-bs-slide="next">
+                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                     <span class="visually-hidden">Next</span>
+                 </button>
+             </div>
+             <div class="card-body">
+                 <h3><i class="bi bi-currency-rupee"></i>1,53,00,000 </h3>
+                 <h5 class="card-title">BMW M4 CS</h5>
+                 <p class="card-text">The BMW M4 CS is a high-performance sports car with a 6-cylinder petrol engine.</p>
+                 <button data-bs-target="#modalId" data-bs-toggle="modal">Buy Now</button>
+             </div>
+            </div>
+             </div>
+             <div class="col-12 col-lg-4">
+                <div class="card">
+                 <div id="carouselId8" class="carousel slide" data-bs-ride="carousel">
+                     <div class="carousel-inner" role="listbox">
+                         <div class="carousel-item active">
+                             <img src="cars/bmw/c/1.webp" class="w-100 d-block" alt="First slide">
+                         </div>
+                         <div class="carousel-item">
+                             <img src="cars/bmw/c/2.webp" class="w-100 d-block" alt="Second slide">
+                         </div>
+                        
+                     </div>
+                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselId8" data-bs-slide="prev">
+                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                         <span class="visually-hidden">Previous</span>
+                     </button>
+                     <button class="carousel-control-next" type="button" data-bs-target="#carouselId8" data-bs-slide="next">
+                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                         <span class="visually-hidden">Next</span>
+                     </button>
+                 </div>
+                 <div class="card-body">
+                     <h3><i class="bi bi-currency-rupee"></i>98,00,000 </h3>
+                     <h5 class="card-title">BMW M2</h5>
+                   <p class="card-text"> It has a six-speed manual gearbox and an eight-speed M Steptronic automatic</p>
+                   <button data-bs-target="#modalId" data-bs-toggle="modal">Buy Now</button>
+                 </div>
+                </div>
+                 </div>
+                 <div class="col-12 col-lg-4">
+                    <div class="card">
+                     <div id="carouselId9" class="carousel slide" data-bs-ride="carousel">
+                         <div class="carousel-inner" role="listbox">
+                             <div class="carousel-item active">
+                                 <img src="cars/bmw/d/1.webp" class="w-100 d-block" alt="First slide">
+                             </div>
+                             <div class="carousel-item">
+                                 <img src="cars/bmw/d/2.webp" class="w-100 d-block" alt="Second slide">
+                             </div>
+                            
+                            
+                         </div>
+                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselId9" data-bs-slide="prev">
+                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                             <span class="visually-hidden">Previous</span>
+                         </button>
+                         <button class="carousel-control-next" type="button" data-bs-target="#carouselId9" data-bs-slide="next">
+                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                             <span class="visually-hidden">Next</span>
+                         </button>
+                     </div>
+                     <div class="card-body">
+                         <h3><i class="bi bi-currency-rupee"></i>2,00,00,000 </h3>
+                         <h5 class="card-title">BMW I7</h5>
+                         <p class="card-text">The BMW i7 is a five-seater sedan with two variants and a single transmission. </p>
+                         <button data-bs-target="#modalId" data-bs-toggle="modal">Buy Now</button>
+                     </div>
+                    </div>
+                     </div>
+                     <div class="col-12 col-lg-4">
+                        <div class="card">
+                         <div id="carouselIda" class="carousel slide" data-bs-ride="carousel">
+                             <div class="carousel-inner" role="listbox">
+                                 <div class="carousel-item active">
+                                     <img src="cars/bmw/e/1.webp" class="w-100 d-block" alt="First slide">
+                                 </div>
+                                 <div class="carousel-item">
+                                     <img src="cars/bmw/e/2.webp" class="w-100 d-block" alt="Second slide">
+                                 </div>
+                                
+                               
+                             </div>
+                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselIda" data-bs-slide="prev">
+                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                 <span class="visually-hidden">Previous</span>
+                             </button>
+                             <button class="carousel-control-next" type="button" data-bs-target="#carouselIda" data-bs-slide="next">
+                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                 <span class="visually-hidden">Next</span>
+                             </button>
+                         </div>
+                         <div class="card-body">
+                             <h3><i class="bi bi-currency-rupee"></i>1,24,00,00 </h3>
+                             <h5 class="card-title">BMW IX</h5>
+                             <p class="card-text">The BMW i7 is a five-seater sedan with two variants and a single transmission. </p>
+                             <button data-bs-target="#modalId" data-bs-toggle="modal">Buy Now</button>
+                             </a>
+                         </div>
+                        </div>
+                         </div>
+                         <div class="col-12 col-lg-4">
+                            <div class="card">
+                             <div id="carouselIdb" class="carousel slide" data-bs-ride="carousel">
+                                 <div class="carousel-inner" role="listbox">
+                                     <div class="carousel-item active">
+                                         <img src="cars/bmw/f/1.webp" class="w-100 d-block" alt="First slide">
+                                     </div>
+                                     <div class="carousel-item">
+                                         <img src="cars/bmw/f/2.webp" class="w-100 d-block" alt="Second slide">
+                                   
+                                     
+                                 </div>
+                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselIdb" data-bs-slide="prev">
+                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                     <span class="visually-hidden">Previous</span>
+                                 </button>
+                                 <button class="carousel-control-next" type="button" data-bs-target="#carouselIdb" data-bs-slide="next">
+                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                     <span class="visually-hidden">Next</span>
+                                 </button>
+                             </div>
+                             <div class="card-body">
+                                 <h3><i class="bi bi-currency-rupee"></i>1,44,00,000 </h3>
+                                 <h5 class="card-title">BMW M4 CS</h5>                            
+                                 <p class="card-text"> It can accelerate from 0 to 100 km/h in 3.9 seconds and has a top speed of 280 km/h.</p>
+                                 <button data-bs-target="#modalId" data-bs-toggle="modal">Buy Now</button>
+                              </div>
+    </div>
+     </div>
+    </div>
+   </section>
+  <section class="container text-center p-5 " id="lamb">
+    <h3>LAMBORGHINI</h3>
+  <div class="row">
+    <div class="col-12 col-lg-4">
+        <div class="card">
+          <div id="carouselIdc" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="cars/lamborghini/a/1.webp" class="w-100 d-block" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="cars/lamborghini/a/2.webp" class="w-100 d-block" alt="Second slide">
+                </div>
+               
+               
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIdc" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselIdc" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+          </div>
+            <div class="card-body">
+                <h3 class="card-title"><i class="bi bi-currency-rupee"></i>4,22,00,000</h3>
+                <h5 class="card-title">LAMBORGHINI URUS AWD</h5>
+                <p class="card-text">The lamborghini urus is an all wheel drive,front-engine tp speed of 190 mph.</p>
+                <button data-bs-target="#modalId" data-bs-toggle="modal">Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-lg-4">
+       <div class="card">
+        <div id="carouselIdd" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="cars/lamborghini/b/1.webp" class="w-100 d-block" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="cars/lamborghini/b/2.webp" class="w-100 d-block" alt="Second slide">
+                </div>
+               
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIdd" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselIdd" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="card-body">
+            <h3 class="card-title"><i class="bi bi-currency-rupee"></i>5,62,00,000</h3>
+            <h5 class="card-title">LAMBORGHINI AVENT</h5>
+            <p class="card-text">The lamborghini aventador svj is a two seater, auotmatic transmission.</p>
+            <button data-bs-target="#modalId" data-bs-toggle="modal">Buy Now</button>
+        </div>
+       </div>
+    </div>
+    <div class="col-12 col-lg-4">
+        <div class="card">
+            <div id="carouselIde" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="cars/lamborghini/c/1.webp" class="w-100 d-block" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="cars/lamborghini/c/2.webp" class="w-100 d-block" alt="Second slide">
+                    </div>
+                   
+                   
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIde" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselIde" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="card-body">
+                <h3 class="card-title"><i class="bi bi-currency-rupee"></i>2,60,00,000</h3>
+                <h5 class="card-title">LAMBORGHINI MURCIE</h5>
+                <p class="card-text">THE murcielaago sv has a v12 engine that produces 660 horsepower.</p>
+                <button data-bs-target="#modalId" data-bs-toggle="modal">Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-lg-4">
+       <div class="card">
+       <div id="carouselIdf" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img src="cars/lamborghini/d/1.webp" class="w-100 d-block" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img src="cars/lamborghini/d/2.webp" class="w-100 d-block" alt="Second slide">
+            </div>
+           
+           
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselIdf" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselIdf" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+       </div>
+        <div class="card-body">
+            <h3 class="card-title"><i class="bi bi-currency-rupee"></i>4,20,00,000</h3>
+            <h5 class="card-title">LAMBORGHINI URUS</h5>
+            <p class="card-text">Lamborghini urus is the first super sport utility vehicle in the world .</p>
+            <button data-bs-target="#modalId" data-bs-toggle="modal">Buy Now</button>
+        </div>
+       </div>
+        </div>
+    <div class="col-12 col-lg-4">
+        <div class="card">
+          <div id="carouselIdg" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="cars/lamborghini/e/1.webp" class="w-100 d-block" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="cars/lamborghini/e/2.webp" class="w-100 d-block" alt="Second slide">
+                </div>
+               
+                
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIdg" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselIdg" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+          </div>
+            <div class="card-body">
+                <h3 class="card-title"><i class="bi bi-currency-rupee"></i>4,20,00,000</h3>
+                <h5 class="card-title">LAMBORGHINI URUS</h5>
+                <p class="card-text">Lamborghini Urus is the first Super Sport Utility Vehicle in the world,</p>
+                <button data-bs-target="#modalId" data-bs-toggle="modal">Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-lg-4">
+        <div class="card">
+            <div id="carouselIdh" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="cars/lamborghini/f/1.webp" class="w-100 d-block" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="cars/lamborghini/f/2.webp" class="w-100 d-block" alt="Second slide">
+                    </div>
+                   
+                  
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIdh" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselIdh" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="card-body">
+                <h3 class="card-title"><i class="bi bi-currency-rupee"></i>5,00,00,000</h3>
+                <h5 class="card-title">LAMBORGHINI HURACAN</h5>
+                <p class="card-text">The Lamborghini Huracan STO is a two-door, two-seater Italian supercar.</p>
+                <button data-bs-target="#modalId" data-bs-toggle="modal">Buy Now</button>
+            </div>
+        </div>
+    </div>
+  </div>
+  </section>
+  <section class="container text-center p-5" id="audi">
+    <h3>AUDI</h3>
+    <div class="row">
+        <div class="col-12 col-lg-4">
+            <div class="card">
+                <div id="carouselIdi" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="cars/audi/a/1.webp" class="w-100 d-block" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="cars/audi/a/2.webp" class="w-100 d-block" alt="Second slide">
+                        </div>
+                       
+                        
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselIdi" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselIdi" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title"><i class="bi bi-currency-rupee"></i>1,59,00,000</h3>
+                    <h5 class="card-title">AUDI RS6</h5>
+                    <p class="card-text">The Audi RS6 is a five-seater station wagon with a 3993 cc engine.</p>
+                    <button data-bs-target="#modalId" data-bs-toggle="modal">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4">
+            <div class="card">
+                <div id="carouselIdij" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="cars/audi/b/1.webp" class="w-100 d-block" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="cars/audi/b/2.webp" class="w-100 d-block" alt="Second slide">
+                        </div>
+                       
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselIdij" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselIdij" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title"><i class="bi bi-currency-rupee"></i>2,54,00,000</h3>
+                    <h5 class="card-title">AUDI R8</h5>
+                    <p class="card-text">The R8 shares its underpinnings and its powertrain—a mighty V-10.</p>
+                    <button data-bs-target="#modalId" data-bs-toggle="modal">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4">
+            <div class="card">
+                <div id="carouselIdk" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="cars/audi/c/1.webp" class="w-100 d-block" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="cars/audi/c/2.webp" class="w-100 d-block" alt="Second slide">
+                        </div>
+                       
+                       
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselIdk" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselIdk" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title"><i class="bi bi-currency-rupee"></i>70,00,000</h3>
+                    <h5 class="card-title">AUDI Q5</h5>
+                    <p class="card-text">The Audi Q5 is a 5-seater SUV with a 1984 cc engine and automatic transmission</p>
+                    <button data-bs-target="#modalId" data-bs-toggle="modal">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4">
+            <div class="card">
+                <div id="carouselIdil" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="cars/audi/d/1.webp" class="w-100 d-block" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="cars/audi/d/2.webp" class="w-100 d-block" alt="Second slide">
+                        </div>
+                       
+                        
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselIdil" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselIdil" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title"><i class="bi bi-currency-rupee"></i>1,13,00,000</h3>
+                    <h5 class="card-title">AUDI RS</h5>
+                    <p class="card-text">The RS stands for RennSport, which translates from German to "racing sport". </p>
+                    <button data-bs-target="#modalId" data-bs-toggle="modal">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4">
+            <div class="card">
+                <div id="carouselIdil1" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="cars/audi/e/1.webp" class="w-100 d-block" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="cars/audi/e/2.webp" class="w-100 d-block" alt="Second slide">
+                        </div>
+                       
+                       
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselIdil1" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselIdil1" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title"><i class="bi bi-currency-rupee"></i>2,72,00,000</h3>
+                    <h5 class="card-title">AUDI R8 V10</h5>
+                    <p class="card-text"> It has a top speed of 196 mph and can accelerate from 0 to 62 mph. </p>
+                    <button data-bs-target="#modalId" data-bs-toggle="modal">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4">
+            <div class="card">
+                <div id="carouselIdim" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="cars/audi/f/1.webp" class="w-100 d-block" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="cars/audi/f/2.webp" class="w-100 d-block" alt="Second slide">
+                        </div>
+                       
+                       
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselIdim" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselIdim" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title"><i class="bi bi-currency-rupee"></i>2,50,00,000</h3>
+                    <h5 class="card-title">AUDI RS Q8</h5>
+                    <p class="card-text">It has a horsepower rating of 441 hp, an RPM of 6,000, and a fuel tank capacity.</p>
+                    <button data-bs-target="#modalId" data-bs-toggle="modal">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <section class="container p-5 text-center" id="fer">
+    <h3>FERRARI</h3>
+    <div class="row">
+        <div class="col-12 col-lg-4">
+            <div class="card">
+              <div id="carouselIdn" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="cars/ferrari/a/1.webp" class="w-100 d-block" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="cars/ferrari/a/2.webp" class="w-100 d-block" alt="Second slide">
+                    </div>
+                   
+                   
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIdn" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselIdn" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+              </div>
+                <div class="card-body">
+                    <h3 class="card-title"><i class="bi bi-currency-rupee"></i>6,24,00,000</h3>
+                    <h5 class="card-title">FERRARI 296 GTB</h5>
+                    <p class="card-text">The Ferrari 296 GTB is a two-seater coupe that was launched in India in August 2022</p>
+                    <button data-bs-target="#modalId" data-bs-toggle="modal">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4">
+            <div class="card">
+              <div id="carouselIdo" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="cars/ferrari/b/1.webp" class="w-100 d-block" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="cars/ferrari/b/2.webp" class="w-100 d-block" alt="Second slide">
+                    </div>
+                    
+                   
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIdo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselIdo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+              </div>
+                <div class="card-body">
+                    <h3 class="card-title"><i class="bi bi-currency-rupee"></i>3,80,00,000</h3>
+                    <h5 class="card-title">FERRARI ROMA</h5>
+                    <p class="card-text">The Ferrari Roma is a two-seater coupe with a front mid-engine, rear-wheel-drive </p>
+                    <button data-bs-target="#modalId" data-bs-toggle="modal">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4">
+            <div class="card">
+              <div id="carouselIdp" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="cars/ferrari/c/1.webp" class="w-100 d-block" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="cars/ferrari/c/2.webp" class="w-100 d-block" alt="Second slide">
+                    </div>
+                   
+                    
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIdp" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselIdp" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+              </div>
+                <div class="card-body">
+                    <h3 class="card-title"><i class="bi bi-currency-rupee"></i>4,10,00,000</h3>
+                    <h5 class="card-title">FERRARI F8</h5>
+                    <p class="card-text">The Ferrari F8 is a rear-wheel drive car with a 3.9-liter, twin-turbocharged V8.</p>
+                    <button data-bs-target="#modalId" data-bs-toggle="modal">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <footer class="container-fluid text-center text-bg-dark p-5" id="foot">
+    <div class="row">
+      <div class="col-6 col-lg-3">
+         <img src="logo/logo-no-background.png" alt="">
+         <div class="mt-2">
+          <li><i class="bi bi-geo-alt me-2"></i> 
+              Audi India, Chakala,<br> Andheri (East) <br>
+                  Mumbai 400 099
+             </li>
+             <li><i class="bi bi-telephone me-2"></i> +91888088803</li>
+             <li><i class="bi bi-envelope me-2"></i> Carsedition@gmail.com</li>
+         </div>
+           </div>
+           <div class="col-6 col-lg-3">
+            <h5>Category</h5>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="car.html">Cars</a></li>
+            <li><a href="aboutus.html">Aboutus</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </div>
+      <div class="col-6 col-lg-3">
+          <h5>CARS</h5>
+          <li>AUDI</li>
+          <li>Ferrari</li>
+          <li>Mercedes</li>
+          <li>Lamborghini</li>
+          <li>BMW</li>
+      </div>
+      <div class="col-6 col-lg-3">
+          <h5>FOLLOW US</h5>
+          <li><i class="bi bi-instagram"></i> Instagram</li>
+          <li><i class="bi bi-twitter-x"></i> Twitter</li>
+          <li><i class="bi bi-facebook"></i> Facebook</li>
+          <li><i class="bi bi-linkedin"></i> Linkedin</li>
+          <li><i class="bi bi-youtube"></i> Youtube</li>
+      </div>
+    </div>
+ </footer>
+ <footer class="flen">
+  <p class="text-center">Copyright <i class="bi bi-c-circle"></i> 2024 All rights reserved.</p>
+</footer>
+</body>
+</html>
